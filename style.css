@@ -1,0 +1,42 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #ffffff,#0099ff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+input{
+    margin: 20px; 
+}
+
+#Name, #reciept{
+    margin-top: 250px;
+}
+
+#Name, #Email, #Phone, #NumofPizzas, #AddPizza, #order, #reciept{
+    
+    align-self: center;
+    align-content: center;
+    padding-left: 40%;
+    
+}
+
+#logo{
+    position: fixed;
+    left: 40%;
+    top: 10px;
+    margin-bottom: 100px;
+}
+#orderForm{
+    text-align: center;
+    line-height: 45px;
+}
+
+
+
+
+
+

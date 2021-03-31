@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="logo.jpg" alt="logo" id="logo">
+    <form method="get"></form>
+        <div id="Name"> Name:<input type="text" name="userName" id="userName" name=userName></div>
+        
+
+       <div id="Email"><br>Email:<input type="text" name="email" id="email" name=email></div>
+        
+
+        <div id="Phone"><br>Phone number:<input type="text" name="phone" id="phone" name=phone></div>
+        
+
+
+        
+
+       <div id="NumofPizzas"><br> # of Pizzas:<select name="qty" id="qty">
+            <script>
+                for (var x = 1; x <= 10;  x++)
+                {
+                    document.write(`<option value=${x}>${x}</option>`)
+                }
+            </script>
+
+        </select></div>
+        
+        <div id="order"><br>Type of Pizza:<select name="product" id="productSelection">
+           
+
+        </select>
+        <input id="Order" type="button"  value="Order"></div>
+
+        <p id="orderForm"></p>
+
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>
